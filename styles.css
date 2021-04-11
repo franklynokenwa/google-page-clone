@@ -1,0 +1,157 @@
+html{
+    height: 100vh;
+}
+body{
+    margin: 0;
+    overflow: hidden;
+    height: 100vh;
+}
+nav{
+    height: 3rem;
+    width: 15rem;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    left: 70rem;
+    align-items: center;   
+}
+nav a {
+    text-decoration: none;
+}
+.nav-items a:hover{   
+    text-decoration: underline;
+}
+nav p a{
+    color: black;
+}
+.account-name{
+    background-color: blueviolet;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50px;
+    text-align: center;
+    color: white;
+}
+.account-name:hover{
+    border: 3px solid gainsboro;
+}
+#name{
+    position: relative;
+    top: 6px;
+}
+.main-info{
+    height: 25rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+footer{
+    background-color: gainsboro;
+}
+.google-app-launcher-icon{
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 50px;
+}
+.google-app-launcher-icon:hover{
+    border-bottom: none;
+    border: 10px solid gainsboro;
+    background-color: gainsboro;
+}
+.google-image{
+    height: 100px;
+    width: 300px;
+    margin-bottom: 2rem;
+}
+.main-info input{
+    width: 40rem;
+    height: 2.5rem;
+    outline: none;
+    border: 1px solid RGB(223, 225, 229);
+    border-radius: 25px;
+    margin-bottom: 2rem;
+}
+.main-info input:hover{
+    filter: drop-shadow(0 0 0.35rem gainsboro);
+}
+.main-info-buttons{
+    width: 14rem;
+    display:flex;
+    justify-content: space-between;
+}
+.main-info-buttons button{
+    height: 35px;
+    background-color: #F8F9FA;
+    border: none;
+    outline: none;
+}
+.main-info-buttons button:hover{
+    border: 1px solid #DADCE0;
+    filter: drop-shadow(1px 1px 0px #DADCE0);
+}
+.main-info-offer{
+    display: flex;
+}
+.main-info-language{
+    display: flex;
+    width: 17rem;
+    justify-content: space-around;
+}
+.main-info-language a:hover{
+    text-decoration: underline;
+}
+.main-info-language a{
+    text-decoration: none;
+}
+footer{
+    background-color: #F2F2F2;
+    color: #70757A;
+    position: relative;
+    height: 7rem;
+    bottom: -4.1rem;
+}
+.footer-country{
+    height: 2rem;
+    position: relative;
+    left: 2rem;
+    display: flex;
+    align-items: center;
+}
+footer section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-services{
+    display: flex;
+    justify-content: space-between;
+    width: 25rem;
+    position: relative;
+    left: 2rem;
+}
+.footer-services a, .footer-config a{
+    text-decoration: none;
+    color: #70757A;
+}
+.footer-services a:hover, .footer-config a:hover{
+    text-decoration: underline;
+}
+.footer-carbon{
+    width: 15rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.footer-carbon img{
+    width: 1rem;
+    height: 1rem;
+    margin-right: 6px;
+}
+.footer-config{
+    display: flex;
+    justify-content: space-between;
+    width: 10rem;
+    position: relative;
+    right: 2rem;
+}
